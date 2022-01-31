@@ -1,4 +1,4 @@
-const balancedArray = (array) => {
+const balancedIndex = (array) => {
   let total = array.reduce((a, b) => a + b);
   let sumLeft = 0;
 
@@ -12,4 +12,4 @@ const balancedArray = (array) => {
   return -1;
 };
 
-console.log(balancedArray([1, 2, 5, 3]));
+console.log(balancedIndex([1, 2, 5, 3]));
